@@ -1,0 +1,24 @@
+<html>
+<head>
+  <title></title>
+  <script type="text/javascript" src="https://raw.github.com/visionmedia/superagent/master/build/build.js"></script>
+</head>
+<body>
+  <textarea id="svg" name="body"></textarea>
+  <button onclick="submit(); void(0);">Submit</button>
+  <script type="text/javascript">
+
+    function submit () {
+      var body = document.getElementById("svg").value;
+
+      superagent
+        .post("/")
+        .send(body)
+        .end(function(err, res) {
+          console.log(res.status);
+        });
+    }
+
+  </script>
+</body>
+</html>

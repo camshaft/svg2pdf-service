@@ -1,0 +1,28 @@
+{
+  "name": "svg2pdf-service",
+  "version": "0.0.0",
+  "description": "svg2pdf-service",
+  "main": "app.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CamShaft/svg2pdf-service.git"
+  },
+  "author": "Cameron Bytheway <cameron@theflokk.com>",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "startup": "~0.1.2",
+    "express": "~3.1.0"
+  },
+  "devDependencies": {
+    "should": "~1.2.1",
+    "supertest": "~0.5.1",
+    "mocha": "~1.8.1"
+  },
+  "engines": {
+    "node": "0.8.x",
+    "npm": "1.1.x"
+  }
+}

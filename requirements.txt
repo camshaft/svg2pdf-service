@@ -1,0 +1,7 @@
+CairoSVG==0.5
+cairocffi==0.3
+cffi==0.5
+distribute==0.6.34
+git-remote-helpers==0.1.0
+pycparser==2.09.1
+wsgiref==0.1.2

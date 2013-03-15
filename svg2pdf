@@ -1,0 +1,7 @@
+#!/usr/bin/env python
+# Fix the existing cairo imports
+import cairocffi
+cairocffi.install_as_pycairo()
+
+import cairosvg
+cairosvg.main()
