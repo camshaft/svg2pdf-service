@@ -35,5 +35,6 @@ nosetests.xml
 .project
 .pydevproject
 
+.env
 venv
 node_modules
